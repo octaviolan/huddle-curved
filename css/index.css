@@ -1,0 +1,38 @@
+@import './fonts.css';
+
+:root {
+  /* Colors */
+  --pink: hsl(322, 100%, 66%);
+  --lightPink: hsl(321, 100%, 78%);
+  --lightRed: hsl(0, 100%, 63%);
+  --veryDarkCyan: hsl(192, 100%, 9%);
+  --veryPaleBlue: hsl(207, 100%, 98%);
+  /* Typography */
+  --basefontFamily: 'Open Sans', sans-serif;
+  --headingfontFamily: 'Poppins', sans-serif;
+  --headline1Mobile: 700 48px/72px var(--headingfontFamily);
+  --headline1Desktop: 700 48px/36px var(--headingfontFamily);
+  --headline2Mobile: 700 20px/30px var(--headingfontFamily);
+  --headline2Desktop: 700 40px/60px var(--headingfontFamily);
+  --bodyMobile: 400 14px/21px var(--basefontFamily);
+  --bodyDesktop: 400 20px/30px var(--basefontFamily);
+  --footerMobile: 600 14px/21px var(--basefontFamily);
+  --footerDesktop: 600 14px/24px var(--basefontFamily);
+  /* Buttons */
+  --button1Mobile: 400 10px/13px var(--basefontFamily);
+  --button1Desktop: 400 16px/22px var(--basefontFamily);
+  --button2Mobile: 700 12px/18px var(--basefontFamily);
+  --button2Desktop: 700 20px/30px var(--basefontFamily);
+}
+
+body {
+  border: 1px solid red;
+  font: var(--bodyMobile);
+  color: var(--veryDarkCyan1024);
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font: var(--bodyDesktop);
+  }
+}
