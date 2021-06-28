@@ -1,5 +1,8 @@
 @import './fonts.css';
 @import './icons.css';
+@import './button.css';
+@import './wrapper.css';
+@import './header.css';
 
 :root {
   /* Colors */
@@ -27,9 +30,9 @@
 }
 
 body {
-  border: 1px solid red;
   font: var(--bodyMobile);
   color: var(--veryDarkCyan1024);
+  margin: 0;
 }
 
 @media screen and (min-width: 1024px) {

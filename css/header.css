@@ -1,0 +1,22 @@
+.header {
+  margin-block-start: 24px;
+  margin-block-end: 112px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    margin-block-start: 78px;
+    margin-block-end: 225px;
+  }
+
+  .header-content img {
+    inline-size: 240px;
+    block-size: 38px;
+  }
+}
