@@ -1,0 +1,49 @@
+.follower-content {
+  inline-size: 160px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 88px;
+}
+
+.follower-container {
+  text-align: center;
+}
+
+.follower-container h3 {
+  font: var(--headline3Mobile);
+  margin: 0;
+}
+
+.follower-container p {
+  margin: 0;
+  color: #808E9A;
+}
+
+.follower-image {
+  inline-size: 35px;
+  block-size: 35px;
+}
+
+.follower-image img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .follower-content {
+    inline-size: 880px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .follower-image {
+    inline-size: 56px;
+    block-size: 56px;
+  }
+
+  .follower-container h3 {
+    font: var(--headline3Desktop);
+  }
+
+}

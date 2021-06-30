@@ -1,0 +1,49 @@
+.hero {
+  margin-block-end: 120px;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font: var(--headline1Mobile);
+  margin: 0;
+}
+
+.hero-content p {
+  margin-block-start: 24px;
+  margin-block-end: 48px;
+}
+
+.hero-content .button {
+  margin-block-end: 104px;
+}
+
+.hero-image img {
+  inline-size: 100%;
+  display: block;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-content {
+    inline-size: 1017px;
+    margin: auto;
+  }
+
+  .hero-content h1 {
+    font: var(--headline1Desktop);
+  }
+
+  .hero-content p {
+    margin-block-start: 26px;
+    margin-block-end: 49px;
+    inline-size: 600px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+
+  .hero-content .button {
+    margin-block-end: 120px;
+  }
+}

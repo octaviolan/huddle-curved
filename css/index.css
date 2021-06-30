@@ -3,6 +3,9 @@
 @import './button.css';
 @import './wrapper.css';
 @import './header.css';
+@import './hero.css';
+@import './followers.css';
+@import './curved.css';
 
 :root {
   /* Colors */
@@ -14,10 +17,12 @@
   /* Typography */
   --basefontFamily: 'Open Sans', sans-serif;
   --headingfontFamily: 'Poppins', sans-serif;
-  --headline1Mobile: 700 48px/72px var(--headingfontFamily);
-  --headline1Desktop: 700 48px/36px var(--headingfontFamily);
+  --headline1Mobile: 700 24px/36px var(--headingfontFamily);
+  --headline1Desktop: 700 48px/72px var(--headingfontFamily);
   --headline2Mobile: 700 20px/30px var(--headingfontFamily);
   --headline2Desktop: 700 40px/60px var(--headingfontFamily);
+  --headline3Mobile: 700 53px/80px var(--headingfontFamily);
+  --headline3Desktop: 700 96px/144px var(--headingfontFamily);
   --bodyMobile: 400 14px/21px var(--basefontFamily);
   --bodyDesktop: 400 20px/30px var(--basefontFamily);
   --footerMobile: 600 14px/21px var(--basefontFamily);
