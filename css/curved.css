@@ -1,0 +1,127 @@
+.curved {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.curved-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.curved-image {
+  inline-size: 87.5%;
+  margin: auto;
+}
+
+.curved-image img {
+  inline-size: 100%;
+  vertical-align: middle;
+}
+
+.curved-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.curved-description h2 {
+  font: var(--headline2Mobile);
+  text-align: center;
+  margin: 0;
+}
+
+.curved-description p {
+  text-align: center;
+  margin: 0;
+}
+
+.curved-container:nth-child(odd) .curved-item {
+  background: var(--veryPaleBlue);
+}
+
+.curved-growTop {
+  inline-size: 100%;
+  block-size: 112px;
+  background: url(../images/bg-section-top-mobile-1.svg);
+  background-size: 100% 112px;
+}
+
+.curved-growBottom {
+  inline-size: 100%;
+  block-size: 52px;
+  background: url(../images/bg-section-bottom-mobile-1.svg);
+  background-size: 100% 52px;
+}
+
+.curved-userTop {
+  inline-size: 100%;
+  block-size: 103px;
+  background: url(../images/bg-section-top-mobile-2.svg);
+  background-size: 100% 103px;
+}
+
+.curved-userBottom {
+  inline-size: 100%;
+  block-size: 101px;
+  background: url(../images/bg-section-bottom-mobile-2.svg);
+  background-size: 100% 101px;
+}
+
+@media screen and (min-width: 1024px) {
+  .curved-growTop {
+    inline-size: 100%;
+    block-size: 165px;
+    background: url(../images/bg-section-top-desktop-1.svg);
+  }
+
+  .curved-growBottom {
+    inline-size: 100%;
+    block-size: 139px;
+    background: url(../images/bg-section-bottom-desktop-1.svg);
+  }
+
+  .curved-userTop {
+    inline-size: 100%;
+    block-size: 156px;
+    background: url(../images/bg-section-top-desktop-2.svg);
+  }
+
+  .curved-userBottom {
+    inline-size: 100%;
+    block-size: 139px;
+    background: url(../images/bg-section-bottom-desktop-2.svg);
+  }
+
+  .curved-content {
+    flex-direction: row;
+    align-items: center;
+    gap: 120px;
+  }
+
+  .curved-container:nth-child(odd) .curved-image {
+    order: 2;
+  }
+
+  .curved-image {
+    inline-size: 560px;
+    block-size: 560px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .curved-description {
+    inline-size: 550px;
+  }
+
+  .curved-description h2 {
+    font: var(--headline2Desktop);
+    text-align: start;
+  }
+
+  .curved-description p {
+    text-align: start;
+  }
+}

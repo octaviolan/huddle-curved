@@ -1,3 +1,5 @@
+
+
 .follower-content {
   inline-size: 160px;
   margin-inline-start: auto;
@@ -13,6 +15,7 @@
 
 .follower-container h3 {
   font: var(--headline3Mobile);
+  text-align: start;
   margin: 0;
 }
 
@@ -31,6 +34,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .follower {
+    margin-block-end: 133px;
+  }
+
   .follower-content {
     inline-size: 880px;
     flex-direction: row;
