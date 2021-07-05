@@ -1,0 +1,27 @@
+.cta {
+  margin-block-start: 50px;
+  margin-block-end: 251px;
+}
+
+.cta-content h3 {
+  font: var(--headline4Mobile);
+  text-align: center;
+  margin: 0;
+  margin-block-end: 40px;
+}
+
+.cta-content .button{
+  display: block;
+  margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .cta {
+    margin-block-start: 150px;
+    margin-block-end: 178px;
+  }
+
+  .cta-content h3 {
+    font: var(--headline4Desktop);
+  }
+}

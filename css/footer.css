@@ -1,0 +1,154 @@
+.footer {
+  background: var(--veryDarkCyan);
+  color: #fff;
+  padding-block-start: 46px;
+  padding-block-end: 46px;
+  font: var(--footer);
+}
+
+.curved-footerTop {
+  inline-size: 100%;
+  block-size: 53px;
+  background: url(../images/bg-footer-top-mobile.svg);
+  background-size: 100% 53px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 104px;
+}
+
+.footer-newsletter h4 {
+  font: var(--headline4Mobile);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+
+.footer-newsletter p {
+  margin-block-start: 16px;
+  margin-block-end: 32px;
+}
+
+.footer-newsletter form{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-newsletter form input {
+  padding: 12px 41px;
+  font: var(--buttonFooter);
+  border: none;
+  border-radius: 6px;
+}
+
+.footer-newsletter form input[type="submit"] {
+  color: white;
+  background: var(--pink);
+  cursor: pointer;
+  align-self: flex-end;
+  transition: background .3s;
+}
+
+.footer-newsletter form input[type="submit"]:hover {
+  background: var(--lightPink);
+}
+
+.footer-image {
+  inline-size: 200px;
+  block-size: 32px;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.footer-logo p {
+  margin: 0;
+  margin-block-start: 16px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-phone,
+.contact-email {
+  display: flex;
+  gap: 16px;
+  align-content: center;
+}
+
+.contact-phone span,
+.contact-email span {
+  font-weight: 400;
+}
+
+.image-phone,
+.image-email {
+  inline-size: 24px;
+  block-size: 24px;
+  text-align: center;
+}
+
+.image-phone img,
+.image-email img {
+  vertical-align: middle;
+}
+
+.footer-social {
+  display: flex;
+  gap: 17px;
+}
+
+.footer-social i {
+  font-size: 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.footer-social i:hover {
+  color: var(--pink);
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding-block-start: 103px;
+    padding-block-end: 103px;
+  }
+
+  .curved-footerTop {
+    inline-size: 100%;
+    block-size: 158px;
+    background: url(../images/bg-footer-top-desktop.svg);
+    background-size: 100% 158px;
+  }
+
+  .footer-content {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .footer-newsletter {
+    inline-size: 520px;
+  }
+
+  .footer-contacts {
+    inline-size: 340px;
+  }
+
+  .footer-newsletter form{
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .footer-newsletter p {
+    inline-size: 344px;
+  }
+}

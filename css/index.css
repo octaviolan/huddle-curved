@@ -6,6 +6,8 @@
 @import './hero.css';
 @import './followers.css';
 @import './curved.css';
+@import './cta.css';
+@import './footer.css';
 
 :root {
   /* Colors */
@@ -23,20 +25,24 @@
   --headline2Desktop: 700 40px/60px var(--headingfontFamily);
   --headline3Mobile: 700 53px/80px var(--headingfontFamily);
   --headline3Desktop: 700 96px/144px var(--headingfontFamily);
+  --headline4Mobile: 700 24px/36px var(--headingfontFamily);
+  --headline4Desktop: 700 40px/60px var(--headingfontFamily);
   --bodyMobile: 400 14px/21px var(--basefontFamily);
   --bodyDesktop: 400 20px/30px var(--basefontFamily);
-  --footerMobile: 600 14px/21px var(--basefontFamily);
-  --footerDesktop: 600 14px/24px var(--basefontFamily);
+  --headline4Mobile:  700 20px/30px var(--basefontFamily);
+  --headline4Desktop:  700 24px/36px var(--basefontFamily);
+  --footer: 600 14px/24px var(--basefontFamily);
   /* Buttons */
   --button1Mobile: 400 10px/13px var(--basefontFamily);
   --button1Desktop: 400 16px/22px var(--basefontFamily);
   --button2Mobile: 700 12px/18px var(--basefontFamily);
   --button2Desktop: 700 20px/30px var(--basefontFamily);
+  --buttonFooter: 700 16px/24px var(--basefontFamily);
 }
 
 body {
   font: var(--bodyMobile);
-  color: var(--veryDarkCyan1024);
+  color: var(--veryDarkCyan);
   margin: 0;
 }
 

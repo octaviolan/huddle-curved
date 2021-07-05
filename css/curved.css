@@ -74,24 +74,28 @@
     inline-size: 100%;
     block-size: 165px;
     background: url(../images/bg-section-top-desktop-1.svg);
+    background-size: 100% 165px;
   }
 
   .curved-growBottom {
     inline-size: 100%;
     block-size: 139px;
     background: url(../images/bg-section-bottom-desktop-1.svg);
+    background-size: 100% 139px;
   }
 
   .curved-userTop {
     inline-size: 100%;
     block-size: 156px;
     background: url(../images/bg-section-top-desktop-2.svg);
+    background-size: 100% 156px;
   }
 
   .curved-userBottom {
     inline-size: 100%;
     block-size: 139px;
     background: url(../images/bg-section-bottom-desktop-2.svg);
+    background-size: 100% 139px;
   }
 
   .curved-content {
